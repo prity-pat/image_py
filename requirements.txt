@@ -1,4 +1,4 @@
-opencv-python
+opencv-python_headless
 streamlit
 matplotlib
 numpy
