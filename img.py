@@ -20,7 +20,6 @@ if img is not None:
     img_sm = cv2.GaussianBlur(img_inv,(25,25),sigmaX=0,sigmaY=0)
     img_pencil = cv2.divide(img_g,255-img_sm,scale = 255)
 
-    st.image(img_pencil,caption = 'pencil sketch')
 
     if selected_option == "Gray Scale Image":
         st.image(img_g,caption = "Gray Scale Image")
